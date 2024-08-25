@@ -1,0 +1,174 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        html {
+        -webkit-text-size-adjust:none;
+        }
+        body {
+        width:100%;
+        margin:0 auto;
+        padding:0;
+        }
+        li {
+        margin-top:15px;
+        }
+    </style>
+    <title>Sign in notification</title>
+</head>
+<body style="font-family:Helvetica Neue;">
+<div>
+    <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#f4f3f8" style="table-layout:fixed; padding: 5px 10px;" dir="ltr">
+        <tbody>
+        <tr>
+            <td align="center" valign="top" style="min-width:420px;">
+                <!-- Email header table -->
+                <table cellspacing="0" cellpadding="0" width="420" height="50" bgcolor="#ffffff">
+                    <tr>
+                        <td align="left" style="padding: 22px;">
+                            <img src="https://s.yimg.com/wm/modern/images/AOL_Logo_Black.png" style="display:block; border:0; margin-top:10px;" width="100" alt="AOL"/>
+                        </td>
+                    </tr>
+                </table>
+                <!-- Email body table -->
+                <table cellspacing="0" cellpadding="0" width="420" bgcolor="#ffffff">
+                    <!-- Salutation row -->
+                    <tr>
+                        <td style="padding-left: 22px;">
+                            <div style="font-size: 12px;">
+                                <p style="color: #000000; letter-spacing: 0.5px; margin-top:15px;"><b>Hi ##UNAME##,</b></p>
+                                <p style="color: #9A9A9A; margin: 0px; line-height:20px;">##EMAIL##</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Main content row -->
+                    <tr>
+                        <td style="padding-left: 22px;">
+                            <!-- Main content table -->
+                            <table cellspacing="0" cellpadding="0" width="400" style="font-size: 13px; line-height: 18px;">
+                                <tr>
+                                    <td valign="middle" width="340" height="72">
+                                        <div style=" font-size: 12px; color: #26282A; letter-spacing: 0.5px; line-height: 16px; margin-top: 15px";>
+                                            <p style="margin: 0px">We sent a code to <b>+62 8233123##NUMBER4##</b> which was used to sign in to your AOL account.
+                                                </p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- Device info row -->
+                    <tr>
+                        <td style="padding-left: 22px;">
+                            <!-- Device info table -->
+                            <p style="font-family: HelveticaNeue; font-size: 12px; color: #26282A; letter-spacing: 0.5px; margin-top: 15px;">
+                                <b>This sign in attempt was made on:</b>
+                            </p>
+                            <table cellspacing="0" cellpadding="0" width="400" style="font-family: HelveticaNeue;
+                            word-wrap: break-word;
+                            font-size: 12px;
+                            line-height: 24px;
+                            table-layout: fixed;
+                            letter-spacing: 0;
+                            color: #9A9A9A;">
+                                <tr>
+                                    <td style="width: 30%">
+                                        <p>Date and Time:</p>
+                                    </td>
+                                    <td style="color: #26282A;
+                                        letter-spacing: -0.22px;">
+                                        ##DATE##
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div><p>Estimated Location:</p></div>
+                                    </td>
+                                    <td style="color: #26282A;
+                                        letter-spacing: -0.22px;">
+                                        <div>##COUNTRY##</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Device:</p>
+                                    </td>
+                                    <td style="color: #26282A; letter-spacing: -0.22px;">
+                                        <p style="margin: 0px">##PC_BROWSER##, ##PC_OS##</p>
+                                        <p style="line-height: 0.5; margin: 0px; font-size: 9px;">(IP Address: ##IP##)</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- Additional info row -->
+                    <tr>
+                        <td style="padding-left: 22px;">
+                            <!-- Additional info table -->
+                            <div style="font-family: HelveticaNeue;
+                                        font-size: 12px;
+                                        color: #26282A;
+                                        letter-spacing: 0.5px;
+                                        line-height: 16px;">
+                                <p style="margin-top: 20px; margin-bottom: 2px;"><b>If this was you, you're all set.</b></p>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Additional info row -->
+                    <tr>
+                        <td style="padding-left: 22px;">
+                            <!-- Additional info table -->
+                            <div style="font-family: HelveticaNeue;
+                                        font-size: 12px;
+                                        color: #26282A;
+                                        letter-spacing: 0.5px;
+                                        line-height: 16px;">
+                                <p style="margin-top: 20px; margin-bottom: 2px;"><b>If this wasn't you:</b></p>
+                                <ol>
+                                    <li>Review your account activity and remove the devices and apps that you don&rsquo;t recognize.<br>
+                                    <a href='#'>https://login.aol.com/account/activity</a></li>
+                                    <li>Review your phone numbers and email addresses and remove the ones that don&rsquo;t belong to you.<br>
+                                    <a href='#'>https://login.aol.com/account/security</a></li>
+                                    
+                                </ol>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- From row -->
+                    <tr>
+                        <td style="padding-left: 22px;">
+                            <div style="font-family: HelveticaNeue;
+                                   font-size: 12px;
+                                   color: #000000;
+                                   letter-spacing: 0.5px;
+                                   line-height: 16px;">
+                                <p style="margin-top: 30px; margin-bottom: 3px;">
+                                    Thanks,
+                                </p>
+                                <p style="margin: 0px;">
+                                    <b>AOL</b>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <!-- Footer -->
+                <table cellspacing="0" cellpadding="0" width="420" bgcolor="#ffffff" style="font-size:10px; line-height:20px; color:#000000; text-align:left;">
+                    <tr>
+                        <td style="padding-left: 22px; color: #878C91; padding-top: 30px;">
+                            <div style="margin-bottom: 3px;">
+                                <p>We will never ask you for your password in an email. If you don&rsquo;t trust a link in an email, go directly to the normal sign in page via aol.com.</p>
+                            </div>
+                            <div style="margin-top: 10px; margin-bottom:20px">
+                                <p>*Location is approximate based on the IP address it originated from.</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
